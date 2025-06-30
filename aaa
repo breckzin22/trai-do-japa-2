@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano de Estudos - Yudi Kamada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="titulo">
+            <h2>Plano de Estudos - Yudi Kamada</h2>
+        </div>
+        <div class="mudar">
+            <h2>Rumo ao Sucesso!</h2>
+        </div>
+        <p>Este plano de estudos tem como objetivo revisar os principais conteúdos para o ENEM e outras provas. Utilize os cartões para revisar perguntas e conceitos de forma rápida e eficiente.</p>
+    </header>
+
+    <main>
+        <section id="container">
+
+            <!-- CARTÃO 1 - Matemática -->
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo">
+                        <div class="card-front">
+                            <div class="design-conteudo">
+                                <h3>Matemática</h3>
+                            </div>
+                            <div class="cartao-conteudo-pergunta">O que é uma função do 1º grau?</div>
+                            <div class="cartao-conteudo-resposta">É uma função no formato y = ax + b.</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Resumo - Função 1º grau</h3>
+                            <p>Representa uma linha reta. A taxa de variação é constante e b é o ponto de interceptação no eixo y.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- CARTÃO 2 - Física -->
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo">
+                        <div class="card-front">
+                            <div class="design-conteudo">
+                                <h3>Física</h3>
+                            </div>
+                            <div class="cartao-conteudo-pergunta">Qual a fórmula da 2ª Lei de Newton?</div>
+                            <div class="cartao-conteudo-resposta">F = m . a</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Resumo - 2ª Lei de Newton</h3>
+                            <p>Força é igual à massa multiplicada pela aceleração. Explica como corpos se movem ao receber uma força.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- CARTÃO 3 - Química -->
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo">
+                        <div class="card-front">
+                            <div class="design-conteudo">
+                                <h3>Química</h3>
+                            </div>
+                            <div class="cartao-conteudo-pergunta">O que é estequiometria?</div>
+                            <div class="cartao-conteudo-resposta">É o cálculo das quantidades nas reações químicas.</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Resumo - Estequiometria</h3>
+                            <p>Permite balancear equações químicas e determinar proporções entre reagentes e produtos.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- CARTÃO 4 - História -->
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo">
+                        <div class="card-front">
+                            <div class="design-conteudo">
+                                <h3>História</h3>
+                            </div>
+                            <div class="cartao-conteudo-pergunta">O que foi a Revolução Francesa?</div>
+                            <div class="cartao-conteudo-resposta">Foi um movimento que derrubou a monarquia absolutista em 1789.</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Resumo - Revolução Francesa</h3>
+                            <p>Marco do fim do absolutismo e do surgimento dos ideais de liberdade, igualdade e fraternidade.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- CARTÃO 5 - Geografia -->
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo">
+                        <div class="card-front">
+                            <div class="design-conteudo">
+                                <h3>Geografia</h3>
+                            </div>
+                            <div class="cartao-conteudo-pergunta">O que são placas tectônicas?</div>
+                            <div class="cartao-conteudo-resposta">Grandes blocos que formam a litosfera terrestre.</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Resumo - Placas Tectônicas</h3>
+                            <p>Se movimentam sobre o manto. Seus movimentos causam terremotos, tsunamis e formação de montanhas.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- CARTÃO 6 - Biologia -->
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo">
+                        <div class="card-front">
+                            <div class="design-conteudo">
+                                <h3>Biologia</h3>
+                            </div>
+                            <div class="cartao-conteudo-pergunta">O que é mitose?</div>
+                            <div class="cartao-conteudo-resposta">Divisão celular que gera duas células iguais.</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Resumo - Mitose</h3>
+                            <p>Processo de divisão celular usado no crescimento, regeneração e reprodução de células somáticas.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- CARTÃO 7 - Redação -->
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo">
+                        <div class="card-front">
+                            <div class="design-conteudo">
+                                <h3>Redação</h3>
+                            </div>
+                            <div class="cartao-conteudo-pergunta">Qual a estrutura da redação ENEM?</div>
+                            <div class="cartao-conteudo-resposta">Introdução, desenvolvimento e conclusão.</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Resumo - Estrutura da Redação</h3>
+                            <p>Introdução (apresenta tema), desenvolvimento (2 parágrafos de argumentos) e conclusão com proposta de intervenção.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- CARTÃO 8 - Filosofia -->
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo">
+                        <div class="card-front">
+                            <div class="design-conteudo">
+                                <h3>Filosofia</h3>
+                            </div>
+                            <div class="cartao-conteudo-pergunta">Quem foi Sócrates?</div>
+                            <div class="cartao-conteudo-resposta">Filósofo grego que defendia o autoconhecimento.</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Resumo - Sócrates</h3>
+                            <p>Utilizava o método da maiêutica (questionamento). Frase famosa: "Só sei que nada sei".</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- CARTÃO 9 - Sociologia -->
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo">
+                        <div class="card-front">
+                            <div class="design-conteudo">
+                                <h3>Sociologia</h3>
+                            </div>
+                            <div class="cartao-conteudo-pergunta">O que é desigualdade social?</div>
+                            <div class="cartao-conteudo-resposta">Diferença no acesso a direitos, renda e oportunidades.</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Resumo - Desigualdade Social</h3>
+                            <p>Ocorre quando parte da população tem menos acesso a educação, saúde, moradia e renda.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-text">
+            <p>Projeto desenvolvido por Yudi Kamada - 2025.</p>
+        </div>
+        <div class="mark">
+            <a href="https://github.com/">@YudiKamada</a>
+        </div>
+    </footer>
+</body>
+</html>
